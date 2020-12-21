@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="89600" started-at="2020-11-21T13:34:34 IST" finished-at="2020-11-21T13:36:04 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="89600" started-at="2020-11-21T13:34:34 IST" finished-at="2020-11-21T13:36:04 IST">
+      <class name="com.amazon.tests.Test1">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.amazon.tests.Test1@3e57cd70]" name="Setup" is-config="true" duration-ms="29412" started-at="2020-11-21T13:34:34 IST" finished-at="2020-11-21T13:35:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="VerifyItemDataInCartView(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.amazon.tests.Test1@3e57cd70]" name="VerifyItemDataInCartView" duration-ms="59469" started-at="2020-11-21T13:35:04 IST" data-provider="InputData" finished-at="2020-11-21T13:36:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Redmi Note 7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[navyashree.n13@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[na13vy02a94]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyItemDataInCartView -->
+        <test-method status="PASS" signature="Cleanup()[pri:0, instance:com.amazon.tests.Test1@3e57cd70]" name="Cleanup" is-config="true" duration-ms="542" started-at="2020-11-21T13:36:03 IST" finished-at="2020-11-21T13:36:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cleanup -->
+      </class> <!-- com.amazon.tests.Test1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
